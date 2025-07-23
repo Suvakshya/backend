@@ -5,7 +5,7 @@ import {
   updateTestimonial,
   deleteTestimonial
 } from '../controllers/TestimonialController.js'
-// import { protect } from '../middleware/auth.js';
+import { protect } from '../middleware/authMiddleware.js';
 import { singleUpload } from '../middleware/multer.js';
 
 const router = express.Router();
