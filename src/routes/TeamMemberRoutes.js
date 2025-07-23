@@ -6,7 +6,6 @@ import {
   updateTeamMember, 
   deleteTeamMember 
 } from '../controllers/TeamMemberController.js';
-import { protect } from '../middleware/authMiddleware.js';
 import { singleUpload } from '../middleware/multer.js';
 
 const router = express.Router();

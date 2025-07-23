@@ -6,7 +6,7 @@ import {
   updateService,
   deleteService,
 } from "../controllers/ServiceController.js";
-import { protect } from "../middleware/authMiddleware.js";
+
 
 const router = express.Router();
 

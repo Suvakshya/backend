@@ -1,5 +1,4 @@
 import express from 'express';
-import { protect } from '../middleware/authMiddleware.js';
 import { singleUpload } from '../middleware/multer.js';
 import {
   createCompany,
